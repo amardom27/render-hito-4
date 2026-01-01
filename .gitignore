@@ -1,0 +1,14 @@
+# Dependencias de Node (esto cubrirá raíz, frontend y backend)
+node_modules/
+
+# Producción / Builds
+dist/
+build/
+
+# Variables de entorno y secretos
+.env
+.env.local
+
+# Archivos de sistema y logs
+npm-debug.log*
+.DS_Store
