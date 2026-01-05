@@ -37,6 +37,8 @@ function App() {
         {message}
       </p>
 
+      <p>Primer cambio</p>
+
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
