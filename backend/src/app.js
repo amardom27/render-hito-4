@@ -13,7 +13,7 @@ app.use(express.static(path.join(__dirname, '../../frontend/dist')));
 
 // Endpoint API
 app.get('/api/message', (req, res) => {
-  res.json({ message: getMessage() });
+  res.json({ msg: getMessage() });
 });
 
 // Catch-all para React Router (debe ir después de la API)
