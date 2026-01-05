@@ -86,10 +86,11 @@ Esta configuración asegura que los tests se ejecutan antes del despliegue y que
 #### 4.1. Lanzar un despliegue
 Realiza un commit y súbelo al repositorio:
 
-
+```bash
 git add .
 git commit -m "Deploy inicial con pipeline completo"
 git push origin main
+```
 
 #### 4.2. Verificar el despliegue
 En el panel de Render:
