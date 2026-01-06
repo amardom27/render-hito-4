@@ -86,7 +86,10 @@ Configura el servicio con los siguientes valores:
 
 * **Environment:** Node
 * **Root Directory:** (vacío)
-* **Build Command:** npm run install-all && npm test --prefix backend && npm run build --prefix frontend
+* **Build Command:**
+```bash
+npm run install-all && npm test --prefix backend && npm run build --prefix frontend
+```
 * **Start Command:** npm start
 
 Esta configuración asegura que los tests se ejecutan antes del despliegue y que el proceso se cancela si fallan.
