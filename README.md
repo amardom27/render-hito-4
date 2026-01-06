@@ -64,6 +64,16 @@ Abre el navegador en: http://localhost:3000
 * La aplicación React se carga correctamente.
 * Se muestra el mensaje enviado por el backend.
 
+#### 2.5. Crear un repositorio propio y cambiar el remoto
+Para poder trabajar de forma independiente y realizar tus propios commits, crea un repositorio nuevo y vacío en GitHub. Una vez creado, elimina el remoto original y añade tu propio repositorio como nuevo origen:
+
+```bash
+git remote remove origin
+git remote add origin <URL_DE_TU_REPOSITORIO>
+git branch -M main
+git push -u origin main
+```
+
 ### 3. Crear el servicio en Render
 
 #### 3.1. Crear un Web Service
